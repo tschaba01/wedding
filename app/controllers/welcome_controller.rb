@@ -2,7 +2,6 @@
 
 class WelcomeController < ApplicationController
   def index
-    @google_maps_url = 'https://goo.gl/maps/nBAxNAsmPSS2'
-    @cool_earth_url = 'https://www.coolearth.org/'
+    @google_maps_url = 'https://goo.gl/maps/LvzPyw7t2VKzN3716'
   end
 end
