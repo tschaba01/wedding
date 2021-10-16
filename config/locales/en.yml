@@ -30,8 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  wedding_name: "Jack & Jill's Wedding"
-  wedding_couple_names: 'Jack & Jill'
-  wedding_date: 'Saturday, 1 January 2000'
-  wedding_location: 'South Pole'
-  photo_credits: 'Photo Credits: Pexels'
+  wedding_name: "Rebeka & Marci Nagy Napja"
+  wedding_couple_names: 'Rebeka és Marci'
+  wedding_date: '2022. Augusztus 13.'
+  wedding_location: 'Biri'
+  photo_credits: 'Fotós: Száraz Antal'
