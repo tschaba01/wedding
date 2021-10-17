@@ -8,7 +8,7 @@ class RsvpHappyPathTest < ApplicationSystemTestCase
     click_link 'RSVP TODAY!', match: :first
 
     fill_in 'Email', with: 'test@example.com'
-    click_on 'Continue'
+    click_on 'Folytatás'
 
     #
     # About You
@@ -18,7 +18,7 @@ class RsvpHappyPathTest < ApplicationSystemTestCase
     choose 'Yes'
     fill_in 'Dietary Preferences', with: 'Level 5 Vegan'
     fill_in 'Song Suggestions', with: 'Mozart'
-    click_on 'Continue'
+    click_on 'Folytatás'
 
     #
     # Plus Ones
