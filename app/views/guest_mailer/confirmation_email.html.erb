@@ -1,24 +1,24 @@
 <p><%= @guest.email_safe_salutation %></p>
 
 <% if @guest.attending %>
-<p>We look forward to seeing you!</p>
-<p>The address is:</p>
+<p>Alig várjuk, hogy találkozzunk! !</p>
+<p>A Cím:</p>
 <address><%= render partial: 'application/wedding_address' %></address>
 
-<h3>Your RSVP</h3>
-<p>If you would like to view or update your RSVP, you can use the following link to get back to it:</p>
+<h3>Regisztrációdról</h3>
+<p>Ha szeretnéd a regisztrációd megtekinteni vagy frissíteni, akkor ezen linken tudod megtenni:</p>
 <p><%= link_to guest_url(@guest), guest_url(@guest) %></p>
 
 <h3>Sending a Card?</h3>
 <p>If you need it, our mailing address is:</p>
 <address><%= render partial: 'application/mailing_address' %></address>
 
-<h3>Questions and answers</h3>
-<p>Please check <%= link_to 'our wedding website', root_url %> for more information, or you can reply to this email.</p>
+<h3>Kérdések és Válaszok</h3>
+<p>Kérjük később is nézz vissza <%= link_to 'our wedding website', root_url %> újabb infókért. Kérdés/kérés esetén nyugodtan keress minket, akár telefonon, akár emailben (erre a levélre válaszolva).</p>
 <% else %>
-<p>We're sorry to hear you can't make it. If you change your mind, you can update your RSVP with the link below:</p>
+<p>Nagyon sajnáljuk hogy nem tudsz jönni, ha esetleg később meggondolnád magad, az alábbi linken módosíthatod részvételed::</p>
 <p><%= link_to guest_url(@guest), guest_url(@guest) %></p>
-<p>We hope to see you another time!</p>
+<p>Reméljük, hogy hamarosan találkozunk!</p>
 <% end %>
 
 <p>&nbsp;</p>
