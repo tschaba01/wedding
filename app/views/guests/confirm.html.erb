@@ -65,8 +65,8 @@
         <p>(None &mdash; just you.)</p>
       <% end %>
       <% else %>
-      <p>Sorry to hear you won't be joining us!</p>
-      <h3>Your Details</h3>
+      <p>Sajnáljuk, hogy nem tudsz megjelenni!</p>
+      <h3>Adataid</h3>
       <div class="card mb-3">
         <h5 class="card-header"><%= @guest.name %></h5>
         <div class="card-body">
@@ -82,14 +82,14 @@
       </div>
       <% end %>
 
-      <h3>Other Comments?</h3>
+      <h3>Egyéb hozzáfűzni való?</h3>
 
       <%= form.text_area :notes, class: 'form-control' %>
-      <small class="form-text text-muted">Anything else you'd like to let us know?</small>
+      <small class="form-text text-muted">Van bármi egyéni kérésed részünkről?</small>
 
       <div class="row guests-buttons">
         <div class="offset-md-3 col-md-6 text-center">
-          <%= form.submit 'Complete RSVP', class: 'btn btn-primary', data: { disable_with: 'Sending...' } %>
+          <%= form.submit 'Befejezés', class: 'btn btn-primary', data: { disable_with: 'Küldés...' } %>
         </div>
       </div>
       <% end %>
