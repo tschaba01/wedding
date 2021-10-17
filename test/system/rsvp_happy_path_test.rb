@@ -23,7 +23,7 @@ class RsvpHappyPathTest < ApplicationSystemTestCase
     #
     # Plus Ones
     #
-    click_on 'Add Plus One'
+    click_on '+1 vendég hozzáadása'
 
     fill_in 'First Name', with: 'Test Plus'
     fill_in 'Last Name', with: 'One Name'
